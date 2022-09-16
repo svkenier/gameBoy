@@ -15,7 +15,7 @@ function App() {
     display:"flex",
     justifyContent:"center",
     alignItems:"center",
-    bgcolor:"#777"
+    bgcolor:"#4D6D92"
   }}>
      {/* contenedor de consola completa */}
    <Box sx={{
@@ -23,7 +23,7 @@ function App() {
      flexDirection:"column",
      alignItems:"center",
      bgcolor:"#f0f0f0",
-     height:"80%",
+     height:"90%",
      width:"30%",
      borderRadius:"15px 15px 60px 15px",
      boxShadow:"5px 5px rgba(0,0,0,0.1)"
@@ -65,7 +65,7 @@ function App() {
       flexDirection:"column",
       alignItems:"center",
       bgcolor:"gray",
-      height:"50%",
+      height:"45%",
       width:"80%",
       borderRadius:"15px 15px 60px 15px",
      
@@ -189,7 +189,7 @@ function App() {
           width:"25%",
           height:"65%",
           marginLeft:"60px",
-          marginTop:"15px",
+          marginTop:"10px",
           position:"relative",
           
          
@@ -236,7 +236,7 @@ function App() {
           width:"30%",
           height:"40%",
           marginRight:"40px",
-          marginTop:"15px",
+          marginTop:"10px",
           borderRadius:"30px ",
           transform: "rotate(-45deg)",   
           bgcolor:"#e1e1e1",
@@ -261,25 +261,146 @@ function App() {
         </Box>
       </Box>
       {/* select start y ventilacion */}
-      <Box>
-        {/* select */}
-        <Box></Box>
-        {/* start */}
-        <Box></Box>
+      <Box sx={{
+        display:"flex",
+        justifyContent:"space-between",
+        alignItems:"center",
+        width:"100%",
+        height:"25%",
+      }}>
+        {/* contenedor de select y start  */}
+      <Box sx={{
+        display:"flex",
+        justifyContent:"flex-end",
+        alignItems:"center",
+        width:"60%",
+        height:"70%",
+      }}>
+        {/* contenedor de select */}
+        <Box sx={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          width:"10%",
+          height:"80%",
+          borderRadius:"30px",
+          transform: "rotate(55deg)",   
+          bgcolor:"#e1e1e1",
+          marginRight:"35px",
+        }}>
+          {/* select */}
+          <Box sx={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          width:"85%",
+          height:"85%",
+          borderRadius:"30px",  
+          bgcolor:"gray",
+
+         
+          
+        }}></Box>
+        </Box>
+        {/* contenedor de start */}
+        <Box sx={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          width:"10%",
+          height:"80%",
+          borderRadius:"30px",
+          transform: "rotate(55deg)",   
+          bgcolor:"#e1e1e1",
+
+          
+        }}>
+          {/* start */}
+          <Box sx={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          width:"85%",
+          height:"85%",
+          borderRadius:"30px",  
+          bgcolor:"gray",
+        }}></Box>
+        </Box>
+        </Box>
         {/* ventilacion */}
-        <Box>
+        <Box sx={{
+          width:"15%",
+          height:"75%",
+          display:"flex",
+          alignItems:"center",
+          flexDirection:"column",
+          transform: "rotate(48deg)",
+          marginRight:"25px",
+          marginTop:"30px"
+        }}>
           {/* ranura 1 */}
-          <Box></Box>
+          <Box sx={{
+          display:"flex",
+          width:"80%",
+          height:"10%",
+          borderRadius:"30px",
+          bgcolor:"#e1e1e1",
+          margin:"4px",
+
+        }}></Box>
           {/* ranura 2 */}
-          <Box></Box>
+          <Box sx={{
+          display:"flex",
+          width:"80%",
+          height:"10%",
+          borderRadius:"30px",
+          bgcolor:"#e1e1e1",
+          margin:"4px",
+
+
+        }}></Box>
           {/* ranura 3 */}
-          <Box></Box>
+          <Box sx={{
+          display:"flex",
+          width:"80%",
+          height:"10%",
+          borderRadius:"30px",
+          bgcolor:"#e1e1e1",
+          margin:"4px",
+
+
+        }}></Box>
           {/* ranura 4 */}
-          <Box></Box>
+          <Box sx={{
+          display:"flex",
+          width:"80%",
+          height:"10%",
+          borderRadius:"30px",
+          bgcolor:"#e1e1e1",
+          margin:"4px",
+
+
+        }}></Box>
          {/* ranura 5 */}
-          <Box></Box>
+          <Box sx={{
+          display:"flex",
+          width:"80%",
+          height:"10%",
+          borderRadius:"30px",
+          bgcolor:"#e1e1e1",
+          margin:"4px",
+
+        }}></Box>
          {/* ranura 6 */}
-          <Box></Box>
+          <Box sx={{
+          display:"flex",
+          width:"80%",
+          height:"10%",
+          borderRadius:"30px",
+          bgcolor:"#e1e1e1",
+          margin:"4px",
+
+        }}></Box>
         </Box>
       </Box>
     </Box>
