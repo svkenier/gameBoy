@@ -176,27 +176,88 @@ function App() {
       {/* controles */}
       <Box sx={{
         display:"flex",
-        justifyContent:"space-around",
+        justifyContent:"space-between",
+        alignItems:"center",
         width:"100%",
-        height:"50%",
+        height:"30%",
+       
         
 
       }}>
         {/* creuseta */}
-        <Box>
+        <Box sx={{
+          width:"25%",
+          height:"65%",
+          marginLeft:"60px",
+          marginTop:"15px",
+          position:"relative",
+          
+         
+
+        }}>
           {/* cuseta Horizontal */}
-          <Box></Box>
+          <Box sx={{
+              width:"85%",
+              height:"30%",
+              bgcolor:"#4d4d4d",
+              position:"absolute",
+              top:"35%",
+              left:"9%"
+              
+
+          }}></Box>
           {/* cruzeta vertical */}
-          <Box></Box>
+          <Box sx={{
+              width:"30%",
+              height:"85%",
+              bgcolor:"#4d4d4d",
+              position:"absolute",
+              top:"9%",
+              left:"35%"
+              
+
+          }}></Box>
           {/* eje central */}
-          <Box></Box>
+          <Box sx={{
+            position:"absolute",
+            left:"35%",
+            top:"33%",
+            width:"33%",
+            height:"34%",
+            borderRadius:"50%",
+            bgcolor:"#3c3d3c"
+          }}></Box>
         </Box>
         {/* botones */}
-        <Box>
-          {/* boton A */}
-          <Box></Box>
-          {/* Boton B */}
-          <Box></Box>
+        <Box sx={{
+          display:"flex",
+          justifyContent:"space-between",
+          alignItems:"center",
+          width:"30%",
+          height:"40%",
+          marginRight:"40px",
+          marginTop:"15px",
+          borderRadius:"30px ",
+          transform: "rotate(-45deg)",   
+          bgcolor:"#e1e1e1",
+          
+        }}>
+          {/* boton B */}
+          <Box sx={{
+            width:"35%",
+            height:"80%",
+            borderRadius:"50%",
+            bgcolor:"#b0417c",
+            margin:"5px"
+          }}></Box>
+          {/* Boton A */}
+          <Box sx={{
+            width:"35%",
+            height:"80%",
+            borderRadius:"50%",
+            bgcolor:"#b0417c",
+            margin:"5px"
+          }}></Box>
         </Box>
       </Box>
       {/* select start y ventilacion */}
