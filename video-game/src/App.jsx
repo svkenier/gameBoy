@@ -256,7 +256,7 @@ function App() {
             height:"80%",
             borderRadius:"50%",
             bgcolor:"#b0417c",
-            margin:"5px"
+            margin:"5px",
           }}></Box>
         </Box>
       </Box>
